@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.09.00">
+    <object class="AudioFile" id="{1a2b9606-2a23-4a52-9ef2-b6ee6fc02302}">
+        <property name="assetPath">
+            <value>se_gun_fire10.mp3</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>1.248</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{12e27c63-f8aa-4f07-99c4-bf8d72fc2446}</destination>
+        </relationship>
+    </object>
+</objects>

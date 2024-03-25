@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.09.00">
+    <object class="AudioFile" id="{d3633232-e805-4de1-ae4e-7d4558051b1d}">
+        <property name="assetPath">
+            <value>se_magic14.mp3</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>1.4628571428571429</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{12e27c63-f8aa-4f07-99c4-bf8d72fc2446}</destination>
+        </relationship>
+    </object>
+</objects>

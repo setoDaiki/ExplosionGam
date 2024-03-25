@@ -1,0 +1,22 @@
+クォータニオンのサンプル
+
+GameObject::Update();
+		float roll = 0.0f;
+		float yaw = 0.0f;
+		float pitch = 0.0f;
+		constexpr float radianHalf = DirectX::XMConvertToRadians(0.5f);
+		if (KeyInput::GetKeyState('X') == EHold) {
+			roll = radianHalf;
+			DirectX::XMVECTOR vector = DirectX::XMLoadFloat3(&mWorld->GetPos());
+		}
+		if (KeyInput::GetKeyState('Y') == EHold) {
+			pitch = radianHalf;
+		}
+		if (KeyInput::GetKeyState('Z') == EHold) {
+			yaw = radianHalf;
+		}
+		if (KeyInput::GetKeyState('E') == EPush) {
+			mState = EDead;
+		}
+		DirectX::XMVECTOR quaternion = DirectX::XMQuaternionRotationRollPitchYaw(roll,pitch,yaw);
+		mWorld->AddRot(quaternion);

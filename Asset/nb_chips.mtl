@@ -1,0 +1,12 @@
+newmtl cover
+Kd 0.502 0.502 0.502
+Ke 0.016 0.016 0.016
+Ka 1 1 1
+Ks 0.77 0.77 0.77
+Ns 300
+Tr 0
+d 1
+Ni 1.5
+Tf 1 1 1
+map_Kd nb_chips.jpg
+

@@ -1,0 +1,72 @@
+newmtl Default
+Ka 0 0 0
+Kd 0.784314 0.784314 0.784314
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl body
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.81 0.81 0.81
+Ni 1
+Ns 845
+Tf 1 1 1
+d 1
+
+newmtl eye
+Ka 0.34 0.34 0.34
+Kd 0 0.501961 0.752941
+Ks 0.8 0.8 0.8
+Ni 1.6
+Ns 400
+Tf 1 1 1
+d 0.675
+
+newmtl frame
+Ka 0 0 0
+Kd 0.501961 0.501961 0.501955
+Ks 0.5 0.5 0.5
+Ni 1
+Ns 639
+Tf 1 1 1
+d 1
+
+newmtl motor
+Ka 0 0 0
+Kd 0.784314 0.784314 0.862745
+Ks 0.35 0.35 0.35
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl plastic
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.81 0.81 0.81
+Ni 1
+Ns 845
+Tf 1 1 1
+d 1
+
+newmtl plastic_black
+Ka 0 0 0
+Kd 0.168627 0.168627 0.168627
+Ks 0.81 0.81 0.81
+Ni 1
+Ns 845
+Tf 1 1 1
+d 1
+
+newmtl plastic_hand
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.81 0.81 0.81
+Ni 1
+Ns 845
+Tf 1 1 1
+d 1
+

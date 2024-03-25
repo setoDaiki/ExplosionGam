@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h" />
+    <ClInclude Include="AudioSystem.h" />
+    <ClInclude Include="Camera\Camera.h" />
+    <ClInclude Include="Camera\CameraMovement.h" />
+    <ClInclude Include="Camera\StaticCamera.h" />
+    <ClInclude Include="Camera\TestCamera.h" />
+    <ClInclude Include="Collision\AABBHitBox.h" />
+    <ClInclude Include="Collision\Collider.h" />
+    <ClInclude Include="Collision\HitBox.h" />
+    <ClInclude Include="Collision\NullHitBox.h" />
+    <ClInclude Include="Collision\SphereHitBox.h" />
+    <ClInclude Include="Common\FileUtil.h" />
+    <ClInclude Include="Common\MyMath.h" />
+    <ClInclude Include="Common\Printer.h" />
+    <ClInclude Include="Common\Random.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="GameObject\Explosion.h" />
+    <ClInclude Include="GameObject\GameObject.h" />
+    <ClInclude Include="GameObject\Missile.h" />
+    <ClInclude Include="GameObject\Monster.h" />
+    <ClInclude Include="GameObject\NullObject.h" />
+    <ClInclude Include="GameObject\Player.h" />
+    <ClInclude Include="GameObject\Robot.h" />
+    <ClInclude Include="GameObject\Spawner.h" />
+    <ClInclude Include="Input\Command.h" />
+    <ClInclude Include="Input\GamepadButtonCommand.h" />
+    <ClInclude Include="Input\GamepadStickCommand.h" />
+    <ClInclude Include="Input\KeyBoardCommand.h" />
+    <ClInclude Include="Input\KeyInput.h" />
+    <ClInclude Include="Input\Mouse.h" />
+    <ClInclude Include="Json\JsonFile.h" />
+    <ClInclude Include="Manager\GameObjectManager.h" />
+    <ClInclude Include="Manager\Handle.h" />
+    <ClInclude Include="Manager\HandleManager.h" />
+    <ClInclude Include="Manager\ModelManager.h" />
+    <ClInclude Include="Number.h" />
+    <ClInclude Include="ObjectComponent\HitPoint.h" />
+    <ClInclude Include="ObjectComponent\InputComponent.h" />
+    <ClInclude Include="ObjectComponent\InvincibleTime.h" />
+    <ClInclude Include="ObjectComponent\Model.h" />
+    <ClInclude Include="ObjectComponent\ObjectResource.h" />
+    <ClInclude Include="ObjectComponent\RotationMovement.h" />
+    <ClInclude Include="ObjectComponent\Sprite.h" />
+    <ClInclude Include="ObjectComponent\Timer.h" />
+    <ClInclude Include="ObjectComponent\UI.h" />
+    <ClInclude Include="ObjectComponent\WorldTransform.h" />
+    <ClInclude Include="Rendering\ComPtr.h" />
+    <ClInclude Include="Rendering\HeapOffset.h" />
+    <ClInclude Include="Rendering\Mesh.h" />
+    <ClInclude Include="Rendering\Renderer.h" />
+    <ClInclude Include="Scene\ExplosionGame.h" />
+    <ClInclude Include="Scene\Result.h" />
+    <ClInclude Include="Scene\Scene.h" />
+    <ClInclude Include="Scene\ScoreRanking.h" />
+    <ClInclude Include="Scene\Sequence.h" />
+    <ClInclude Include="Scene\Title.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="AudioSystem.cpp" />
+    <ClCompile Include="Camera\Camera.cpp" />
+    <ClCompile Include="Camera\StaticCamera.cpp" />
+    <ClCompile Include="Camera\TestCamera.cpp" />
+    <ClCompile Include="Collision\AABBHitBox.cpp" />
+    <ClCompile Include="Collision\Collider.cpp" />
+    <ClCompile Include="Collision\HitBox.cpp" />
+    <ClCompile Include="Collision\NullHitBox.cpp" />
+    <ClCompile Include="Collision\SphereHitBox.cpp" />
+    <ClCompile Include="Common\FileUtil.cpp" />
+    <ClCompile Include="Common\MyMath.cpp" />
+    <ClCompile Include="Common\Printer.cpp" />
+    <ClCompile Include="Common\Random.cpp" />
+    <ClCompile Include="GameObject\Explosion.cpp" />
+    <ClCompile Include="GameObject\GameObject.cpp" />
+    <ClCompile Include="GameObject\Missile.cpp" />
+    <ClCompile Include="GameObject\Monster.cpp" />
+    <ClCompile Include="GameObject\NullObject.cpp" />
+    <ClCompile Include="GameObject\Player.cpp" />
+    <ClCompile Include="GameObject\Robot.cpp" />
+    <ClCompile Include="GameObject\Spawner.cpp" />
+    <ClCompile Include="Input\GamepadButtonInput.cpp" />
+    <ClCompile Include="Input\GamepadStickCommand.cpp" />
+    <ClCompile Include="Input\KeyBoardCommand.cpp" />
+    <ClCompile Include="Input\KeyInput.cpp" />
+    <ClCompile Include="Input\Mouse.cpp" />
+    <ClCompile Include="Json\JsonFile.cpp" />
+    <ClCompile Include="Manager\GameObjectManager.cpp" />
+    <ClCompile Include="Manager\ModelManager.cpp" />
+    <ClCompile Include="Number.cpp" />
+    <ClCompile Include="ObjectComponent\HitPoint.cpp" />
+    <ClCompile Include="ObjectComponent\InputComponent.cpp" />
+    <ClCompile Include="ObjectComponent\InvincibleTime.cpp" />
+    <ClCompile Include="ObjectComponent\Model.cpp" />
+    <ClCompile Include="ObjectComponent\RotationMovement.cpp" />
+    <ClCompile Include="ObjectComponent\Sprite.cpp" />
+    <ClCompile Include="ObjectComponent\Timer.cpp" />
+    <ClCompile Include="ObjectComponent\UI.cpp" />
+    <ClCompile Include="ObjectComponent\WorldTransform.cpp" />
+    <ClCompile Include="Rendering\HeapOffset.cpp" />
+    <ClCompile Include="Rendering\Mesh.cpp" />
+    <ClCompile Include="Rendering\Renderer.cpp" />
+    <ClCompile Include="Scene\ExplosionGame.cpp" />
+    <ClCompile Include="Scene\Result.cpp" />
+    <ClCompile Include="Scene\Scene.cpp" />
+    <ClCompile Include="Scene\ScoreRanking.cpp" />
+    <ClCompile Include="Scene\Sequence.cpp" />
+    <ClCompile Include="Scene\Title.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{c474f3b9-f09a-4745-9af3-512f9fa2312e}</ProjectGuid>
+    <RootNamespace>DirectX12</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(DXTK_DIR)\Inc;$(DXTEX_DIR);packages\FMOD Studio API Windows\api\studio\inc;packages\FMOD Studio API Windows\api\lowlevel\inc;C:\DirectX12</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(DXTK_DIR)Bin\Desktop_2019_Win10\x64\Debug;packages\FMOD Studio API Windows\api\studio\lib;packages\FMOD Studio API Windows\api\lowlevel\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(DXTK_DIR)\Inc;$(DXTEX_DIR);packages\FMOD Studio API Windows\api\studio\inc;packages\FMOD Studio API Windows\api\lowlevel\inc;C:\DirectX12</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(DXTK_DIR)Bin\Desktop_2019_Win10\x64\Release;packages\FMOD Studio API Windows\api\studio\lib;packages\FMOD Studio API Windows\api\lowlevel\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(DXTK_DIR)\Inc;$(DXTEX_DIR);packages\FMOD Studio API Windows\api\studio\inc;packages\FMOD Studio API Windows\api\lowlevel\inc;C:\DirectX12</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(DXTK_DIR)Bin\Desktop_2019_Win10\x64\Debug;packages\FMOD Studio API Windows\api\studio\lib;packages\FMOD Studio API Windows\api\lowlevel\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(DXTK_DIR)\Inc;$(DXTEX_DIR);packages\FMOD Studio API Windows\api\studio\inc;packages\FMOD Studio API Windows\api\lowlevel\inc;C:\DirectX12</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(DXTK_DIR)Bin\Desktop_2019_Win10\x64\Release;packages\FMOD Studio API Windows\api\studio\lib;packages\FMOD Studio API Windows\api\lowlevel\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="packages\Assimp_native_4.1_v142.4.1.0\build\native\Assimp_native_4.1_v142.targets" Condition="Exists('packages\Assimp_native_4.1_v142.4.1.0\build\native\Assimp_native_4.1_v142.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Assimp_native_4.1_v142.4.1.0\build\native\Assimp_native_4.1_v142.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Assimp_native_4.1_v142.4.1.0\build\native\Assimp_native_4.1_v142.targets'))" />
+  </Target>
+</Project>

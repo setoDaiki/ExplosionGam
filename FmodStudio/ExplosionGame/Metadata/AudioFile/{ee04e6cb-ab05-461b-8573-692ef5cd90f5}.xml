@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.09.00">
+    <object class="AudioFile" id="{ee04e6cb-ab05-461b-8573-692ef5cd90f5}">
+        <property name="assetPath">
+            <value>HighScore.mp3</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>1.6979591836734693</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{d0f1ef84-653b-410b-9e73-182d7a9b0636}</destination>
+        </relationship>
+    </object>
+</objects>
